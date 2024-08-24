@@ -64,10 +64,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "browserTarget": "PrimeNg:build:production"
+              "buildTarget": "PrimeNg:build:production"
             },
             "development": {
-              "browserTarget": "PrimeNg:build:development"
+              "buildTarget": "PrimeNg:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -75,7 +75,7 @@
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "PrimeNg:build"
+            "buildTarget": "PrimeNg:build"
           }
         },
         "test": {
